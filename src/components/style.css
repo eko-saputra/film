@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.title {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.navbar {
+    /* background-color: burlywood; */
+    /* opacity: 0.3; */
+}
+
 .header {
     height: 100vh;
     background-image: url('.././assets/images/bg/main.jpg');
@@ -7,15 +18,26 @@
 .caption {
     height: 100vh;
     color: burlywood;
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
 }
 
-.content {
+.trending {
     height: auto;
-    background-image: url('.././assets/images/bg/scifi.jpg');
+    background-image: url('.././assets/images/bg/spiderman.jpg');
     background-size: cover;
+}
+
+.superhero {
+    height: auto;
+    background-image: url('.././assets/images/bg/romance.jpg');
+    background-size: cover;
+}
+
+.imgcard {
+    height: 600px;
 }
