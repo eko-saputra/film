@@ -9,7 +9,7 @@ const Cardfilm = (props) => {
                 <Card.Text>
                     Some quick example text to build on
                 </Card.Text>
-                <a href='/' className="btn btn-primary"> Watching {props.judul} </a>
+                <a href={props.judul} className="btn btn-primary"> Watching {props.judul} </a>
             </Card.Body>
         </Card >
     )

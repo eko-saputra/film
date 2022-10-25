@@ -6,11 +6,11 @@ function Navigasi() {
     return (
         <Navbar className='navbar shadow' fixed='top' expand="lg">
             <Container>
-                <Navbar.Brand href="#home" className='text-light title'><h3>RPLFilm</h3></Navbar.Brand>
+                <Navbar.Brand href="/" className='text-light title'><h3>RPLFilm</h3></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <a href='#home' className="nav-link text-light"> Home </a>
+                        <a href='/' className="nav-link text-light"> Home </a>
                         <a href='#trending' className="nav-link text-light"> Trending </a>
                         <a href='#superhero' className="nav-link text-light"> Superhero </a>
                     </Nav>

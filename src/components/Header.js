@@ -1,13 +1,19 @@
-import Navigasi from './Navigasi';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Detaildune from './Detaildune';
 import './style.css';
+import Navigasi from './Navigasi';
 const Header = () => {
     return (
-        <div className="header" id='home'>
+        <>
             <Navigasi />
-            <div className='caption'>
-                NONTON GRATIS TANPA BELI TIKET
-            </div>
-        </div>
+            <BrowserRouter>
+                <Routes>
+                    <Route index element={<Home />} />
+                    <Route path="Dune" element={<Detaildune />} />
+                </Routes>
+            </BrowserRouter>
+        </>
     )
 }
 
