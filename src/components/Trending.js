@@ -11,7 +11,7 @@ const Trending = () => {
         <div className='trending pt-5' id="trending">
             <Container className='py-3 text-center'>
                 <h1 className="text-light">TRENDING</h1>
-                <Row className='mb-3'>
+                <Row className='mb-4'>
                     <Col>
                         <Card gambar={Infinite} judul="Infinite" />
                     </Col>
@@ -22,7 +22,7 @@ const Trending = () => {
                         <Card gambar={Joker} judul="Joker" />
                     </Col>
                 </Row>
-                <Row className='mb-3'>
+                <Row className='mb-4'>
                     <Col>
                         <Card gambar={Everything} judul="Everything" />
                     </Col>

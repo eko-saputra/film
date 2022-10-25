@@ -4,6 +4,7 @@ import Avenger from '.././assets/images/superhero/avenger.jpg';
 import Batman from '.././assets/images/superhero/batman.jpg';
 import Robinhood from '.././assets/images/superhero/robinhood.jpg';
 import Superman from '.././assets/images/superhero/superman.jpg';
+import Spiderman from '.././assets/images/superhero/spiderman-cover.jpg';
 import Card from './Cardfilm';
 const Superhero = () => {
     return (
@@ -28,7 +29,9 @@ const Superhero = () => {
                     <Col>
                         <Card gambar={Superman} judul="Superman" />
                     </Col>
-                    <Col></Col>
+                    <Col>
+                        <Card gambar={Spiderman} judul="Spiderman" />
+                    </Col>
                 </Row>
             </Container>
         </div>
